@@ -17,10 +17,17 @@ export class MenuComponent implements OnInit {
     nombre: "Pagina de noticias",
     ruta: "noticias"
   },
+
+  {
+    nombre: "Pagina de articulos",
+    ruta: "articulos"
+  },
+
   {
     nombre: "Pagina de sugerencias",
     ruta: "sugerencias"
   }
+
   ];
   ngOnInit(): void {
   }

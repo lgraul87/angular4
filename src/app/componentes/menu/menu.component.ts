@@ -8,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   constructor() { }
-
+  public item1: any = {
+    nombre: "Pagina inicial",
+    ruta: "inicio"
+  };
   ngOnInit(): void {
   }
 

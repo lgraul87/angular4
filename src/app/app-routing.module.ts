@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: "noticias", component: NoticiasComponent },
   { path: "sugerencias", component: SugerenciasComponent },
   { path: "menu", component: MenuComponent },
-  { path: "**", redirectTo: "menu" }
+  { path: "**", redirectTo: "inicio" }
 
 ];
 

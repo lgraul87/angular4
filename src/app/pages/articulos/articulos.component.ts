@@ -8,8 +8,38 @@ import { Component, OnInit } from '@angular/core';
 export class ArticulosComponent implements OnInit {
 
   constructor() { }
+  public items: any = [{
 
+    nombre: "Camiseta",
+    talla: "M",
+    precio: "10.00 Euros"
+  },
+  {
+    nombre: "Pantalon",
+    talla: "M",
+    precio: "20.00 Euros"
+
+  },
+
+  {
+    nombre: "Sudadera",
+    talla: "M",
+    precio: "30.00 Euros"
+
+  },
+
+  {
+    nombre: "Abrigo",
+    talla: "XL",
+    precio: "50.00 Euros"
+
+  }
+
+  ];
+
+  public mostrar:boolean;
   ngOnInit(): void {
+
   }
 
 }

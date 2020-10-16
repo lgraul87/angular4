@@ -1,1 +1,11 @@
 <p>Este es un componente de articulos</p>
+<dl>
+    <dt *ngFor="let item of items">
+        Articulo: {{item.nombre}}<br>
+        Talla: {{item.talla}}<br>
+        <p *ngIf="mostrar">Precio: {{item.precio}}</p>
+
+        <button *ngIf="!mostrar" (click)="mostrar=true">Mostrar precio</button>
+        <button *ngIf="mostrar" (click)="mostrar=false">Ocultar precio</button>
+    </dt>
+</dl>

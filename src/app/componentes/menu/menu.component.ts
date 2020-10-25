@@ -13,11 +13,7 @@ export class MenuComponent implements OnInit {
     nombre: "Pagina inicial",
     ruta: "inicio"
   },
-  {
-    nombre: "Pagina de noticias",
-    ruta: "noticias"
-  },
-
+  
   {
     nombre: "Pagina de articulos",
     ruta: "articulos"
